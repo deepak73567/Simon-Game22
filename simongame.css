@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    background: url(game4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+    /* width: 100vw; */ 
+    /* height: 100%; */
+
+        
+}
+.heading{
+    color: white;
+    font-weight: 600;
+    text-shadow: 3px 1px black;
+}
+
+.btn{
+    height: 12.5rem;
+    width: 12.5rem;
+    border-radius: 20%;
+    border: 3px dashed black;
+    margin: 1.5rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 2rem; */
+    /* height: 100vh; */
+    /* background: url("game.webp"); */
+}
+.red{
+    background-color:rgb(241, 65, 65);
+}
+.yellow{
+    background-color: rgb(240, 240, 94);
+}
+.green{
+    background-color:rgb(56, 56, 233);
+}
+.purple{
+    background-color:rgb(130, 237, 130);
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
+@media (max-width:611px) {
+    .btn{
+        height: 6.25rem;
+        width: 6.25rem;
+    }
+    
+}
+ @media (max-width:1024px ){
+    .btn{
+        height: 7.5rem ;
+        width: 7.5rem;
+    }
+    
+    }
+    @media (max-width:280px) {
+        .btn-container{
+            margin-left: 4.5rem;
+        }
+        h1,h2{
+            margin-left: 4.5rem;
+            display: flex;
+        }
+        h3{
+            margin-left: 4.5rem;
+        }
+        
+    }
+    .social_media{
+    
+        justify-content: center;
+        text-align: center;
+       }
+   .foot{
+    background-color: gray;
+    /* line-height: 10px; */
+    margin-top: 20px;
+
+   }
+  
